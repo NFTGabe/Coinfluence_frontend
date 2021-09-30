@@ -1,0 +1,84 @@
+/* 3rd-party CSS */
+@import url('~bootstrap/dist/css/bootstrap.min.css');
+@import url('~@fortawesome/fontawesome-free/css/all.css');
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Adobe XD variables */
+  --indicator-yellow-light-background: #f0c800;
+  --indicator-green-light-background: #51d936;
+  --indicator-red-dark-background: #ff6966;
+  --indicator-yellow-dark-background: #ffd91a;
+  --indicator-green-dark-background: #60e545;
+  --purple-paragraphs-100-opacity: #ccccff;
+  --purple-paragraphs-80-opacity: #ccccff;
+  --purple-paragraphs-50-opacity: #ccccff;
+  --accent-green-20-opacity: #00ff95;
+  --accent-green: #00ff95;
+  --accent-green-light-background: #00e586;
+  --accent-purple: #aa80ff;
+  --bright-purple-6-opacity-color-: #f3f0f8;
+  --bright-purple-2-opacity: #330d80;
+  --bright-purple-3-opacity: #330d80;
+  --bright-purple-5-opacity: #330d80;
+  --bright-purple-6-opacity: #330d80;
+  --bright-purple-10-opacity: #330d80;
+  --bright-purple-20-opacity: #330d80;
+  --bright-purple-30-opacity: #330d80;
+  --bright-purple-40-opacity: #330d80;
+  --bright-purple-50-opacity: #330d80;
+  --bright-purple-70-opacity: #330d80;
+  --bright-purple-100-opacity: #330d80;
+  --dark-purple-2-opacity: #2e1f4c;
+  --dark-purple-3-opacity: #2e1f4c;
+  --dark-purple-5-opacity: #2e1f4c;
+  --dark-purple-6-opacity: #2e1f4c;
+  --dark-purple-10-opacity: #2e1f4c;
+  --dark-purple-20-opacity: #2e1f4c;
+  --dark-purple-30-opacity: #2e1f4c;
+  --dark-purple-40-opacity: #2e1f4c;
+  --dark-purple-50-opacity: #2e1f4c;
+  --dark-purple-70-opacity: #2e1f4c;
+  --dark-purple-100-opacity: #2e1f4c;
+
+  /* Font/text values */
+  --unnamed-font-family-poppins: 'Poppins';
+  --unnamed-font-family-roboto: 'Roboto';
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600;
+  --unnamed-font-weight-medium: 500;
+  --unnamed-font-weight-bold: 600;
+  --unnamed-font-weight-normal: 400;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-26: 26px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-38: 38px;
+  --unnamed-font-size-44: 44px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-0-84: 0.84px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-22: 22px;
+  --unnamed-line-spacing-25: 25px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-33: 33px;
+  --unnamed-line-spacing-39: 39px;
+  --unnamed-line-spacing-52: 52px;
+  --unnamed-line-spacing-62: 62px;
+  --unnamed-text-transform-uppercase: uppercase;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
